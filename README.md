@@ -2,7 +2,7 @@
 
 A simple pomodoro timer.
 
-[Live Application](pomodoro-clock-dlzl.surge.sh)
+[Live Application](https://pomodoro-clock-dlzl.surge.sh)
 
 ### Project Goals
 
