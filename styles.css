@@ -1,0 +1,65 @@
+body {
+    background-color: #ce2b37;
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+}
+
+.container {
+    padding: 10px 0;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    display: none;
+}
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: -30px;
+}
+
+.jumbotron>p {
+    font-size: 5em;
+}
+
+#time {
+    background-color: transparent;
+    font-size: 7.5em;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.btn-group-vertical {
+    padding-top: 50px;
+}
+
+.btn, .btn:focus, .btn:hover, .btn:active {
+    background-color: #009246;
+    color: #ffffff;
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+
+footer>a:link, footer>a:visited, footer>a:hover, footer>a:active {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+header {
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.modal-content {
+    background-color: #ce2b37;
+    text-align: center;
+}
+
+.modal-footer {
+    text-align: center;
+}
