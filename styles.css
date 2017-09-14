@@ -1,65 +1,65 @@
 body {
-    background-color: #ce2b37;
-    font-family: "Courier New", Courier, monospace;
-    color: #ffffff;
+  background-color: #ce2b37;
+  font-family: "Courier New", Courier, monospace;
+  color: #ffffff;
 }
 
 .container {
-    padding: 10px 0;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    position: absolute;
-    display: none;
+  bottom: 50%;
+  display: none;
+  padding: 10px 0;
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 
 .jumbotron {
-    background-color: transparent;
-    margin-bottom: -30px;
+  background-color: transparent;
+  margin-bottom: -30px;
 }
 
 .jumbotron>p {
-    font-size: 5em;
+  font-size: 5em;
 }
 
 #time {
-    background-color: transparent;
-    font-size: 7.5em;
-    border-radius: 10px;
-    border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  font-size: 7.5em;
 }
 
 .btn-group-vertical {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .btn, .btn:focus, .btn:hover, .btn:active {
-    background-color: #009246;
-    color: #ffffff;
-    font-size: 1.5em;
-    cursor: pointer;
-    margin: 5px 0px;
+  background-color: #009246;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.5em;
+  margin: 5px 0;
 }
 
 footer>a:link, footer>a:visited, footer>a:hover, footer>a:active {
-    text-decoration: none;
-    color: #ffffff;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 footer {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 header {
-    padding-bottom: 25px;
-    letter-spacing: 2px;
+  letter-spacing: 2px;
+  padding-bottom: 25px;
 }
 
 .modal-content {
-    background-color: #ce2b37;
-    text-align: center;
+  background-color: #ce2b37;
+  text-align: center;
 }
 
 .modal-footer {
-    text-align: center;
+  text-align: center;
 }

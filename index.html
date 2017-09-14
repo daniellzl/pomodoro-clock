@@ -2,55 +2,52 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Pomodoro Timer</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 
 <body>
-	<div class="modal fade" id="myModal" role="dialog">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-body text-center">
-					<h1><strong>Times Up!</strong></h1>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-lg" data-dismiss="modal">Ok</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container text-center">
-		<header>
-			<h1><strong>Pomodoro Timer</strong></h1>
-		</header>
-		<div class="row">
-			<p id="time"></p>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-sm-5 col-md-5 col-lg-5">
-				<button id="startStop" title="Start/Stop timer" class="btn btn-lg btn-block">Start/Stop</button>
-			</div>
-			<div class="col-sm-5 col-md-5 col-lg-5">
-				<button id="reset" title="Reset timer" class="btn btn-lg btn-block">Reset</button>
-			</div>
-			<div class="col-sm-2 col-md-2 col-lg-2">
-				<div class="btn-group">
-					<button id="plus" title="Add minute" class="btn btn-lg">+</button>
-					<button id="minus" title="Subtract minute" class="btn btn-lg">-</button>
-				</div>
-			</div>
-		</div>
-		<footer class="text-center">
-			<a href="https://www.freecodecamp.com/challenges/build-a-pomodoro-clock" target="_blank" title="FreeCodeCamp Challenge Instructions"><strong>Credit</strong></a>
-		</footer>
-	</div>
-    <script type="text/javascript" src="./scripts.js"></script>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body text-center">
+          <h1><strong>Times Up!</strong></h1>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-lg" data-dismiss="modal">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <header>
+      <h1><strong>Pomodoro Timer</strong></h1>
+    </header>
+    <div class="row">
+      <p id="time"></p>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <button id="startStop" title="Start/Stop timer" class="btn btn-lg btn-block">Start/Stop</button>
+      </div>
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <button id="reset" title="Reset timer" class="btn btn-lg btn-block">Reset</button>
+      </div>
+      <div class="col-sm-2 col-md-2 col-lg-2">
+        <div class="btn-group">
+          <button id="plus" title="Add minute" class="btn btn-lg">+</button>
+          <button id="minus" title="Subtract minute" class="btn btn-lg">-</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./scripts.js"></script>
 </body>
 
 </html>
